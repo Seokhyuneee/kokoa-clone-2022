@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More - Kokoa Clone</title>
+</head>
+
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fa-solid fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>110%</span>
+            <i class="fa-solid fa-battery-full"></i>
+            <i class="fa-solid fa-bolt-lightning"></i>
+        </div>
+    </div>
+
+    <header class="screen-header">
+        <h1 class="screen-header__title">More</h1>
+        <div class="screen-header__icons">
+            <span>
+                <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+            </span>
+            <span>
+                <i class="fa-solid fa-music fa-lg"></i>
+            </span>
+            <span class="screen-header__gear">
+                <a href="settings.html">
+                    <i class="fa-solid fa-gear fa-lg"></i></a>
+                <p class="screen-header__reddot"></p>
+            </span>
+        </div>
+    </header>
+
+    <main class="main-screen">
+        <div class="user-component">
+            <div class="user-component__column">
+                <img src="프로필.jpg" class="user-component__avatar user-component__avatar--xl" />
+                <div class="user-component__text">
+                    <h4 class="user-component__title">이석현</h4>
+                    <h6 class="user-component__subtitle user-component__color">010-2293-0719
+                        <i class="fa-solid fa-circle-exclamation"></i>
+                    </h6>
+                </div>
+            </div>
+            <div class="user-component__column">
+                <i class="fa-regular fa-message fa-2x icon__margin"></i>
+            </div>
+        </div>
+        <div class="icon-row">
+            <div class="icon-row__icon">
+                <i class="fa-regular fa-calendar-days"></i>
+                <span>Calendar</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="fa-solid fa-bag-shopping"></i>
+                <span>Talk Drive</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="fa-regular fa-face-smile"></i>
+                <span>Emoticons</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="fa-solid fa-brush"></i>
+                <span>Themes</span>
+            </div>
+        </div>
+        <div class="icon-row">
+            <div class="icon-row__icon icon-row__icon2">
+                <i class="fa-solid fa-file-invoice-dollar"></i>
+                <span>Account</span>
+            </div>
+            <div class="icon-row__icon icon-row__icon2">
+                <i class="fa-regular fa-comments"></i>
+                <span>Openchat</span>
+            </div>
+        </div>
+        <div class="more-suggestions">
+            <h4 class="more-suggestions__title">Suggestions</h4>
+            <div class="more-suggestions__icons">
+                <div class="more-suggestions__icon">
+                    <div class="more-suggestions__icon-image">
+                        <img
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAmVBMVEX64QD///8AAAD11wDSsQ343APevADv5sL53gH22gTmxQDm1qf84wD/6ADw2ADZwwDlzgDqygCPgQCXiABORgAfHAD9+/Tx0gBDPQC5pwDPrAD8+vEbGADXtADuzgDz69HgzYzl1Z7q3bH59efSszoVEwDq3rbdx3nWu1HPrivYv2fVtzncuQDgy4TXu0rQrxLWvWHbxHHy6s7/ayhmAAAE20lEQVR4nO3c25aaShCA4ZYWBNKA4BkFNZpxnBhN5v0fbneDh8keEyorzmqqUn9ukju/VUUDkxjhvGmazZJY4C5OZtn0LUpcfzca9KNIKWX7I/5lWhBF/cHovTCLI+y4WyqKs/8JFwkhn0lFyeKtcBjT8plUPLwJhz49oCb6w4twQXCCJhUvzsKEJlATk1qYRbY/yYcVZUY4IrqjJhWPtHBAd4R6iAMt7NMdoR5i3xFTyiPUQ5wK0ktq1lTMKC+pXtOZIHszrFOJIHyvMCns77scx3Ecx3Ecx3Ecx3Ecx3Ecx3EchzT3cdmm3C8IvUcVBrYxd5On195jej1J25i7yW7nUXVZaCcWspCF9mMhC1loPxaykIX2YyELWWg/FrKQhfZjIQtZaD8WspCF9mMhC1loPxaykIX2YyELWWg/FrKQhfZjIQtZaD8WsvCfEuYstBMLWfgvCcfkhZuCunBZtPS7aw8T9jzqwifywnVbv2H5MOGubOfXZB8nfJ5QF+4lceG8K33bmLs9TLg8UBf2vHY+0jxOuAqpC18m7bwdCnn61NQTBDj+2tKjVMgybOjwDSLUbxbtPGiEbCrwehChfu5uqTBorNhAhKu0pZdh83/eInMIsHNs60Ej/CZh+gMCHHfbetAIvyHX+wwR6vt9Sy9DTdRIAxX1r+pPV7e+TvM5RPgtbetB05Q/eYYAOyfZ1suwKTdcQ4DLorWXYVMSdq9Yh9SX9CixCoEn6Qbxkp7GwCVFKnRD0FO3eaBBuqQyB50z5iTFKfTT76AR7lKsSyqLJUjYxXqSuukLCPjZC5AuqcxhI9xjPWfccAcCvh6QLqkvYW8Vne8l0nMmOKxBwGUR4ByhW25BwM6PFOnNUHZhx4x+JMU5wsBbQUeI81YB3tFNLlGeMz7wgdQcpDivQlmAXgv1vVBfhRiFgQd7aTKvTShH6IawH13oJ9JDgHGEbrkHvdh3OuMTyh11J9BTprMLMY7wD4DLHCkQ9iyj204QPs78CXDlIbwK3RIOXBYS350iSPfQa9C82aMboS/DZ9g7r2kXIgQWoL/trXuqdhSVUJ8xwGdRk36lQDfCAH7GmH8eVKIDiiCE/Xy76qV6mMEmlODn7c76oC9CbCMUrpThEQZ8KgJ8O6qFgSY+Q14qlghPGZMPJW7y6laPUFgTGxd1fioRnjJVMOJ8b4AId9TkAxZ1fEzxAm9T/A1xq2+EGE+ZS2fi9lfE8TaVmEcoLsT0F1Oc10CUp8y1y6Lee4va7NMAPfB3i7rJS/wTNBliINN3PzLt5RMKEzSdidufF3Wt33iJAO8TdwboEgFeiV+vi7rZhqSAt2vxPMXeqSQGvC1q9bPFVVGdMahv9O+riIG5FjdHL6gfZEgBL1Ms9+u8JHSI/lQ9xdKTJAdYVU+x3lBal+C1eoqVjyawIrqUfeJMpAw8f8HL9of42Kj7OI7jOI7jOI7jsBcr25/gQ1OxSIgLEzEjLpyJQWT7Q3xo0UBMiQunwulTXlPVd4RDek2jgRaOCN8vVDzSQiejO8Qoc4zQIXtLVIlTCxdE91TFi7PQGfoUicofOhehMyQ4RRVXwLPQ+ZJEtIwqSr44b4X6RI0JGVUUZxfYVeiMBv0oUgo7UwuiqD8YOe+Fumk2S2LbH/Evi5NZNn2L+g8yNGrwFSnrwwAAAABJRU5ErkJggg==" />
+                    </div>
+                    <span class="more-suggestions__icon-text">Kokoa Story</span>
+                </div>
+                <div class="more-suggestions__icon">
+                    <div class="more-suggestions__icon-image">
+                        <img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCMYk0sVn5M6_PSBRl_fbBlpnsanF7LsjODw&usqp=CAU" />
+                    </div>
+                    <span class="more-suggestions__icon-text">Kokoa friends</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+                <a class="nav__link" href="friends.html"><i class="fa-regular fa-user fa-2x"></i></a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="chats.html"><i class="fa-regular fa-comment fa-2x"></i>
+                    <span class="nav__notification badge">1</span>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="find.html"><i class="fa-solid fa-magnifying-glass fa-2x"></i></a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="more.html"><i class="fa-solid fa-ellipsis fa-2x"></i>
+                    <span class="nav__notification2"></span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="no-mobile">
+        <span>Your screen is too big.</span>
+    </div>
+
+    <script src="https://kit.fontawesome.com/c4bbaa3428.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
