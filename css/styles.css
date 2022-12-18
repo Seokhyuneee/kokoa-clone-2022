@@ -25,6 +25,11 @@ body {
     height: 1000vh;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari, Opera*/
+}
+
 .main-screen {
     padding: 75px 0px 0px var(--horizontal-space);
 }

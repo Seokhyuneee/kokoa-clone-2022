@@ -24,3 +24,8 @@
     margin-right: 30px;
     display: flex;
 }
+
+.icon-row__icon2:last-child {
+    position: relative;
+    left: 8px;
+}

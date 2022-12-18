@@ -9,7 +9,9 @@
 }
 
 .more-suggestions__icons {
+    width: 50%;
     display: flex;
+    justify-content: space-around;
 }
 
 .more-suggestions__icon {
@@ -28,4 +30,5 @@
 
 .more-suggestions__icon-text {
     color: rgba(0, 0, 0, 0.5);
+    font-size: 12px;
 }
